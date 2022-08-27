@@ -13,6 +13,9 @@
 		FD95FE4528BA27E400299DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD95FE4328BA27E400299DC5 /* Main.storyboard */; };
 		FD95FE4728BA27E500299DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD95FE4628BA27E500299DC5 /* Assets.xcassets */; };
 		FD95FE4A28BA27E500299DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD95FE4828BA27E500299DC5 /* LaunchScreen.storyboard */; };
+		FD95FE5428BA287F00299DC5 /* Urunler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95FE5328BA287F00299DC5 /* Urunler.swift */; };
+		FD95FE5628BA2D1C00299DC5 /* UrunTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95FE5528BA2D1C00299DC5 /* UrunTableViewCell.swift */; };
+		FD95FE5828BA3C1300299DC5 /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95FE5728BA3C1300299DC5 /* DetayVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FD95FE4628BA27E500299DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD95FE4928BA27E500299DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD95FE4B28BA27E500299DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD95FE5328BA287F00299DC5 /* Urunler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urunler.swift; sourceTree = "<group>"; };
+		FD95FE5528BA2D1C00299DC5 /* UrunTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrunTableViewCell.swift; sourceTree = "<group>"; };
+		FD95FE5728BA3C1300299DC5 /* DetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				FD95FE3F28BA27E400299DC5 /* SceneDelegate.swift */,
 				FD95FE4128BA27E400299DC5 /* ViewController.swift */,
 				FD95FE4328BA27E400299DC5 /* Main.storyboard */,
+				FD95FE5328BA287F00299DC5 /* Urunler.swift */,
+				FD95FE5528BA2D1C00299DC5 /* UrunTableViewCell.swift */,
+				FD95FE5728BA3C1300299DC5 /* DetayVC.swift */,
 				FD95FE4628BA27E500299DC5 /* Assets.xcassets */,
 				FD95FE4828BA27E500299DC5 /* LaunchScreen.storyboard */,
 				FD95FE4B28BA27E500299DC5 /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD95FE5828BA3C1300299DC5 /* DetayVC.swift in Sources */,
 				FD95FE4228BA27E400299DC5 /* ViewController.swift in Sources */,
 				FD95FE3E28BA27E400299DC5 /* AppDelegate.swift in Sources */,
+				FD95FE5428BA287F00299DC5 /* Urunler.swift in Sources */,
 				FD95FE4028BA27E400299DC5 /* SceneDelegate.swift in Sources */,
+				FD95FE5628BA2D1C00299DC5 /* UrunTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
