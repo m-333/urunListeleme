@@ -15,9 +15,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let u1 = Urunler(urun_id: 1, urun_ad: "Macbook Pro 14 ", urun_resim_ad: "bilgisayar", urun_fiyat: 43999.0)
-        let u2 = Urunler(urun_id: 2, urun_ad: "Rayban Club Master ", urun_resim_ad: "gozluk", urun_fiyat: 2999.0)
-        let u3 = Urunler(urun_id: 3, urun_ad: "Sony ZX", urun_resim_ad: "kulaklik", urun_fiyat: 43999.0)
-        let u4 = Urunler(urun_id: 4, urun_ad: "Gio Armani ", urun_resim_ad: "parfum", urun_fiyat: 1000.0)
+        let u2 = Urunler(urun_id: 2, urun_ad: "Extoll John Lennon", urun_resim_ad: "gozluk", urun_fiyat: 2999.0)
+        let u3 = Urunler(urun_id: 3, urun_ad: "JBL", urun_resim_ad: "kulaklik", urun_fiyat: 43999.0)
+        let u4 = Urunler(urun_id: 4, urun_ad: "Yves Saint Laurent ", urun_resim_ad: "parfum", urun_fiyat: 1000.0)
         let u5 = Urunler(urun_id: 5, urun_ad: "Casio X Series", urun_resim_ad: "saat", urun_fiyat: 1799.0)
         let u6 = Urunler(urun_id: 6, urun_ad: "Dyson V8 ", urun_resim_ad: "supurge", urun_fiyat: 8999.0)
         let u7 = Urunler(urun_id: 7, urun_ad: "Iphone 13 pro", urun_resim_ad: "telefon", urun_fiyat: 23999.0)
